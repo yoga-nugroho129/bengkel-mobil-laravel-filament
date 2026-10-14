@@ -20,7 +20,7 @@ class TypeModelResource extends Resource
 {
     protected static ?string $model = TypeModel::class;
 
-    protected static string|BackedEnum|null $navigationIcon = Heroicon::Key;
+    protected static string|BackedEnum|null $navigationIcon = Heroicon::Cube;
 
     protected static ?string $recordTitleAttribute = 'TypeModel';
 
